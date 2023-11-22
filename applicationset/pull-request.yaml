@@ -10,7 +10,7 @@ spec:
         # The GitHub organization or user.
         owner: toni-petrina #e.g. eficode-academy
         # The Github repository
-        repo: https://github.com/toni-petrina/argocd-katas/ #e.g. argocd-katas
+        repo: argocd-katas #e.g. argocd-katas
 
         # Labels is used to filter the PRs that you want to target. (optional)
         labels:
