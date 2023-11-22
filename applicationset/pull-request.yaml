@@ -22,7 +22,7 @@ spec:
     spec:
       project: "default"
       source:
-        repoURL: 'https://github.com/eficode-academy/helm-katas.git'
+        repoURL: 'https://github.com/toni-petrina/helm-katas.git'
         targetRevision: 'main'
         path: examples/apps/http-server
         helm:
