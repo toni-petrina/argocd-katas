@@ -1,0 +1,16 @@
+project: default
+destination:
+  namespace: student-12
+  name: in-cluster
+syncPolicy:
+  automated: {}
+sources:
+  - repoURL: 'https://charts.bitnami.com/bitnami'
+    targetRevision: 12.4.0
+    helm:
+      valueFiles:
+        - $values/jenkins/values.yaml
+    chart: jenkins
+  - repoURL: 'https://github.com/toni-petrina/argocd-katas'
+    targetRevision: main
+    ref: values
